@@ -7,21 +7,21 @@
    
    
     @font-face {
-       font-family:minecraft ;
-       src: url(/assets/fonts/Minecraft/Minecraft-BoldItalic.otf);
+       src: url("../assets/fonts/Minecraft/Minecraft-BoldItalic.otf");
+     font-family: Minecraft;   
     }
    
    
    
    
     body {
-       font-family: minecraft;
+       font-family: Minecraft;
        color: #00FF00;
        padding: 30px;
        margin: 0;
      }
       .header-box {
-       font-family:minecraft;
+       font-family:Minecraft;
        font-size: 10px;
        background-color: #000;
        color: #e75c00;
@@ -34,7 +34,7 @@
      
      }
       .content-box {
-       font-family: minecraft;
+       font-family: Minecraft;
        background-color: rgba(36, 233, 14, 0.85);
        border: 3px double black;
        padding: 5px;
